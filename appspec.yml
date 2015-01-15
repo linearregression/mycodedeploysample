@@ -8,14 +8,6 @@ permissions:
     owner: root
     group: root
     mode: 444
-    acls: 
-      - u:mary:rw
-      - u:sam:rw
-      - m::rw
-    context:
-      user: unconfined_u
-      type: httpd_sys_content_t
-      range: s0
     type:
       - file
 hooks:
